@@ -1,3 +1,12 @@
+"""
+app/Excel.py
+Excel.py is a module that can render a excel file with a dictionary and save it.
+It can also convert a xls file to a xlsx file.
+@Author: Fei Dongxu
+@Date: 2023-9-21
+@Version: 1.0
+@License: Apache License 2.0
+"""
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils.exceptions import InvalidFileException
 import os

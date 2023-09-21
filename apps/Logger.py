@@ -1,3 +1,11 @@
+"""
+app/Logger.py
+Logger.py is a module that can log the information of the program.
+@Author: Fei Dongxu
+@Date: 2023-9-21
+@Version: 1.0
+@License: Apache License 2.0
+"""
 import logging
 import logging.handlers
 from os import mkdir
